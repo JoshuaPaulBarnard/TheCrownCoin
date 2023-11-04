@@ -106,10 +106,12 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "5.196.71.153:50505",    //OVH Seed Node #1
+  "5.196.71.153:50505",   //OVH Seed Node #1
   "37.187.118.119:50505", //OVH Seed Node #2
-  "51.12.217.187:50505",   //Azure Seed Node #1
+  "51.12.217.187:50505",  //Azure Seed Node #1
   "51.12.211.212:50505"   //Azure Seed Node #2
+  "172.160.240.6:50505",  //Azure Seed Node #3
+  "172.160.240.34:50505"   //Azure Seed Node #4
 };
 
 struct CheckpointData {
