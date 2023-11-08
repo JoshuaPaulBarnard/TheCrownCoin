@@ -182,6 +182,15 @@ For 64-bit:
 -   `cd <your_turtlecoin_directory>`
 -   `mkdir build`
 -   `cd build`
+-   `cmake -G "Visual Studio 15 2017" -A x64 .. -DBOOST_ROOT=B:/local/boost_1_59_0`
+-   `MSBuild CryptoNote.sln /p:Configuration=Release /p:PlatformToolset=v140 /m`
+
+
+
+
+
+cmake -G "Visual Studio 15 2017" -A x64 .. -DBOOST_ROOT=B:/local/boost_1_59_0 -DARCH=default
+
 -   `cmake -G "Visual Studio 16 2019" -A x64 .. -DBOOST_ROOT=B:/local/boost_1_69_0`
 -   `MSBuild CrownCoin.sln /p:Configuration=Release /p:PlatformToolset=v141 /m` or `MSBuild src\cli.vcxproj /p:Configuration=Release /p:PlatformToolset=v141 /m`
 

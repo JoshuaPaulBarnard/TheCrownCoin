@@ -119,8 +119,8 @@ const std::initializer_list<const char*> SEED_NODES = {
   "51.12.211.212:50505",   //Azure Seed Node #2 - Europe
   "172.160.240.6:50505",   //Azure Seed Node #3 - Europe
   "4.255.145.145:50505",   //Azure Seed Node #4 - USA
-  "5.196.71.153:50505",    //OVH Seed Node #1
-  "37.187.118.119:50505"   //OVH Seed Node #2
+  "5.196.71.153:50505",    //OVH Seed Node #1   - Europe
+  "37.187.118.119:50505"   //OVH Seed Node #2   - Europe
 };
 
 struct CheckpointData {
