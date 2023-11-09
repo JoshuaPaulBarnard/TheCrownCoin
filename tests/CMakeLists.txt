@@ -20,8 +20,8 @@ file(GLOB_RECURSE P2p ../src/P2p/*)
 source_group("" FILES ${CoreTests} ${CryptoTests} ${FunctionalTests} ${IntegrationTestLibrary} ${IntegrationTests} ${NodeRpcProxyTests} ${PerformanceTests} ${SystemTests} ${TestGenerator} ${TransfersTests} ${UnitTests})
 source_group("" FILES ${CryptoNoteProtocol} ${P2p})
 
-add_library(IntegrationTestLibrary ${IntegrationTestLibrary})
-add_library(TestGenerator ${TestGenerator})
+add_library(IntegrationTestLibrary STATIC ${IntegrationTestLibrary})
+add_library(TestGenerator STATIC ${TestGenerator})
 
 add_executable(CoreTests ${CoreTests})
 add_executable(CryptoTests ${CryptoTests})
